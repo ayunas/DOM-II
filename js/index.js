@@ -19,7 +19,23 @@ a.forEach(atag => atag.addEventListener('mouseout', function() {
     atag.style.color = 'black';
 }));
 
+const input = document.querySelector('#input');
 
+input.addEventListener('focus', function() {
+    input.style.backgroundColor = '#FDBA58';
+    input.style.color = 'white';
+})
+
+const error = document.querySelector('#error');
+
+input.addEventListener('blur', function() {
+    input.style.background = 'white';
+    input.style.color = 'black';
+    if(!input.value.includes('@')) {
+       input.classList.add('invalid');
+       error.textContent = 'Please enter a correct email';
+       }
+});
 
 
 
