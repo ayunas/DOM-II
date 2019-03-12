@@ -140,7 +140,8 @@ h1,
 h2,
 h3,
 h4,
-h5 {
+h5,
+span {
   font-family: 'Indie Flower', cursive;
 }
 h1 {
@@ -158,6 +159,12 @@ p {
   line-height: 1.5;
   font-size: 1.6rem;
   padding-bottom: 10px;
+}
+span {
+  font-size: 2rem;
+}
+span strong {
+  font-weight: bold;
 }
 img {
   max-width: 100%;
