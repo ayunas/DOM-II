@@ -75,6 +75,7 @@ const container = document.querySelector('.container');
 
 container.addEventListener('wheel', () => {
     nav.style.background = '#FDBA58';
+    nav.style.transition = 'all 2.5s';
 })
 
 const bottomContent = document.querySelector('.content-pick');
