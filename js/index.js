@@ -53,6 +53,7 @@ input.addEventListener('blur', function() {
     if(!input.value.includes('@')) {
        input.classList.add('invalid');
        error.textContent = 'Please enter a correct email';
+       error.style.color = 'red';
        }
 });
 
