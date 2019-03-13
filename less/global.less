@@ -10,7 +10,7 @@ html, body {
   font-family: 'Roboto', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5, span {
   font-family: 'Indie Flower', cursive;
 }
 
@@ -34,6 +34,19 @@ p {
   padding-bottom: 10px;
 }
 
+span {
+    font-size: 2rem;
+    strong {
+        font-weight: bold;
+    }
+    margin-left: 57%;
+}
+
+#error {
+    margin-left: 57%;
+    padding-top: 4rem;
+}
+
 img {
   max-width: 100%;
   height: auto;
@@ -43,6 +56,7 @@ img {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
+  padding: 0 20px;
 
   @media @mobile {
     width: 90%;

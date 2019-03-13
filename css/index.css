@@ -140,7 +140,8 @@ h1,
 h2,
 h3,
 h4,
-h5 {
+h5,
+span {
   font-family: 'Indie Flower', cursive;
 }
 h1 {
@@ -159,6 +160,17 @@ p {
   font-size: 1.6rem;
   padding-bottom: 10px;
 }
+span {
+  font-size: 2rem;
+  margin-left: 57%;
+}
+span strong {
+  font-weight: bold;
+}
+#error {
+  margin-left: 57%;
+  padding-top: 4rem;
+}
 img {
   max-width: 100%;
   height: auto;
@@ -167,6 +179,7 @@ img {
   max-width: 800px;
   width: 100%;
   margin: 0 auto;
+  padding: 0 20px;
 }
 @media (max-width: 500px) {
   .container {
